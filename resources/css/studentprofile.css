@@ -1,0 +1,216 @@
+body{
+	background-color: #F3F8F4;
+	overflow:auto;
+}
+.div{
+	display:block;
+}
+.FATHERDIV{
+	
+	border:0px solid green;
+	
+	max-width:1500px;
+	min-width:900px;
+	
+	overflow-y: hidden;
+
+	padding:0.5px;
+	margin:auto;
+	margin-top: 0;
+}
+
+/* ------------NAVBAR--------------------- */
+.navbar{
+	background-color: #5A8E6B;
+	max-width:1400px;
+	top:0;
+	padding:7px;
+
+	margin:auto;
+	margin-top:1px;
+}
+
+.navbar ul li{
+	display: inline;
+	text-decoration: none;
+
+	margin-left:20px;
+
+}
+.navbar ul li a{
+	font-family: "Times New Roman", Times, serif;
+	text-decoration: none;
+	font-size: 22px;
+	color:white;
+}
+.navbar ul li a:hover{
+	color:#D9DFDB;
+
+	border-top: 2px solid;
+	border-radius: 3px;
+}
+#loginright{
+	float:right;
+	margin-right: 20px;
+}
+
+.toplogo{
+	position: absolute;
+	height:150px;
+	width: 150px;
+	z-index: 10;
+	border-radius: 10000px;
+}
+
+
+/* --------------DESIGN PICTURE------------------- */
+
+#slideshow {
+  	margin: auto;
+  	margin-top:10px;
+  	position: relative;
+
+  	width: 100%;
+  	max-width:1400px;
+  	height: 600px;
+
+  	box-shadow: 0 0 30px 0 rgba(0, 0, 0, 0.4);
+}
+.firstSlide{
+  	position: relative;
+  	width:100%;
+  	height:125%;
+
+  	border:0px solid yellow;
+}
+.slidediv{
+	height:80%;
+	width:100%;
+}
+
+/* -----------WHOLE STUDENT BOX---------------------- */
+.introHolder{
+	position: relative;
+	border:0px solid brown;
+	float:left;
+	clear:both;
+	width:100%;
+
+	margin:auto;
+	margin-top:-300px;
+}
+.midIntro{
+	width:80%;
+	height:650px;
+
+	float:left;
+
+	margin:auto;
+	margin-left:7%;
+	margin-bottom: 20px;
+	padding:40px;
+
+	border:0px solid yellow;
+	box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.4);
+
+	background-color:white;
+}
+.profilepic{
+	height:250px;
+	width:25.5%;
+
+	float:left;
+	clear:left;
+	border-radius:2px;
+	box-shadow: 0 0 3px 0 rgba(0, 0, 0, 0.4);
+}
+.namediv{
+	background-color: #5A8E6B;
+	height:125px;
+	width:74.5%;
+	float:left;
+
+	box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.4);
+	border-radius:2px;
+	position: relative;
+}
+.lowright{
+	background-color:#4A504C; 
+	height:25px;
+	width: 170px;
+	position: absolute;
+	right:0;
+	bottom:0;
+	border:0px solid blue;
+	float:right;
+}
+.lowright h3{
+	color:white;
+	text-align: center;
+	padding: 0;
+	margin: 0;
+}
+.namediv h1{
+	color:white;
+	font-family: "Cooper Black", serif;
+	font-size: 49px;
+	font-style: oblique;
+	font-variant: normal;
+	font-weight: 700;
+	line-height: 34.3px;
+
+	margin-top:40px;
+	margin-left: 40px;
+	position: relative;
+}
+.welcdiv{
+	background-color: #D8F1E0;
+	height:125px;
+	width:74.5%;
+	float:left;
+
+	border-radius:2px;
+	border:0px solid blue;
+	box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.4);
+}
+.welcdiv h1{
+	color:#4A504C;
+	text-align: center;
+	font-family: 'Lobster', Georgia, Times, serif;
+	font-size: 30px;
+	font-variant: normal;
+	font-weight: 700;
+	line-height: 34.3px;
+
+	margin-top:40px;
+}
+#quotation{
+	margin-top:20px;
+	height: 20px;
+	width: 20px;
+}
+#quotation1{
+	height: 20px;
+	width: 20px;
+	transform: rotate(180deg);
+}
+.information{
+	width:250px;
+
+	clear:left;
+
+	border-right: 1px solid #4A504C;
+}
+.information h2{
+	margin-top: 300px;
+	color: #3E664B;
+}
+.information h3{
+	color: #4A504C;
+	margin-top: -10px;
+}
+#topped{
+	margin-top:30px;
+}
+/* ------------------------------------- */
+
